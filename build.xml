@@ -15,14 +15,13 @@
 	<property name="jUnitHamcrestJar" value="${libsFolder}\org.hamcrest.core_1.3.0.v201303031735.jar"/>
 		
 	<target name="helloWorld">
-		<echo>CI example hello world</echo>
+		<echo>holis mundis</echo>
 	</target>
 	
 	<target name="clean">
 		<delete dir="${destFolder}"/>
 		<delete dir="${testSuiteFolder}"/>
 		<delete dir="${javaDocsFolder}"/>
-		
 		<mkdir dir="${destFolder}"/>
 		<mkdir dir="${testBinFolder}"/>
 		<mkdir dir="${testResultsFolder}"/>
